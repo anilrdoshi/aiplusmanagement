@@ -1,4 +1,3 @@
-
 # AI plus Management Doctoral Consortium
 Assets for the website.
 
