@@ -102,7 +102,25 @@ th,td{
 /* Website Banner */
 .banner {position: relative;
     font-family:'Roboto Slab',serif;}
-.top-left {font-size:5.33em;
+
+.top-left {
+    font-size: 5.33em;
+    color: #FF8C00; /* Dark Orange */
+    text-align: center;
+    padding: 20px 0;
+    position: relative; /* Change from absolute */
+}
+
+.bottom-right {
+    font-size: 2.33em;
+    color: #000000; /* Black */
+    text-align: center;
+    padding: 10px 0;
+    position: relative; /* Change from absolute */
+}
+
+/*.top-left {
+    font-size:5.33em;
     color: #FF8C00;
     background: #fafafa;
     text-align: center;
@@ -111,7 +129,8 @@ th,td{
     position: absolute;
     padding: 36px 0 0 0;
     top: 0px;}
-.bottom-right {font-size:2.33em;
+.bottom-right {
+    font-size:2.33em;
     color: #000000;
     line-height: 1.5em;
     width: auto;
@@ -121,7 +140,7 @@ th,td{
     position: absolute;
     bottom: 0px;
     right: 0px;
-    text-shadow: none;}
+    text-shadow: none;}*/
 
 /* Conference Title Logo */
 .title1 {
