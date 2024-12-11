@@ -102,31 +102,9 @@ th,td{
 /* Website Banner */
 .banner {position: relative;
     font-family:'Roboto Slab',serif;}
-<<<<<<< HEAD
-
 .top-left {
-    font-size: 5.33em;
-    color: #FF8C00; /* Dark Orange */
-    text-align: center;
-    padding: 20px 0;
-    position: relative; /* Change from absolute */
-}
-
-.bottom-right {
-    font-size: 2.33em;
-    color: #000000; /* Black */
-    text-align: center;
-    padding: 10px 0;
-    position: relative; /* Change from absolute */
-}
-
-/*.top-left {
     font-size:5.33em;
     color: #FF8C00;
-=======
-.top-left {font-size:5.33em;
-    color: #505050;
->>>>>>> parent of db26d56... Clean titles, organizer images, map position
     background: #fafafa;
     text-align: center;
     width: 1000px;
@@ -134,14 +112,9 @@ th,td{
     position: absolute;
     padding: 36px 0 0 0;
     top: 0px;}
-<<<<<<< HEAD
 .bottom-right {
     font-size:2.33em;
     color: #000000;
-=======
-.bottom-right {font-size:2.33em;
-    color: #fafafa;
->>>>>>> parent of db26d56... Clean titles, organizer images, map position
     line-height: 1.5em;
     width: auto;
     height: 100px;
@@ -150,7 +123,7 @@ th,td{
     position: absolute;
     bottom: 0px;
     right: 0px;
-    text-shadow: none;}*/
+    text-shadow: none;}
 
 /* Conference Title Logo */
 .title1 {
@@ -181,7 +154,9 @@ table.organizers{
     width:800px;}
 td.organizer{
     white-space:nowrap;
-    width:25%;
+    height: 150px%;
+    width: 150px%;
+    object-fit: cover;
     text-align:center;
     vertical-align:middle;
     padding:5px 5px 5px 5px;}
