@@ -103,7 +103,7 @@ th,td{
 .banner {position: relative;
     font-family:'Roboto Slab',serif;}
 .top-left {font-size:5.33em;
-    color: #505050;
+    color: #FF8C00;
     background: #fafafa;
     text-align: center;
     width: 1000px;
@@ -112,7 +112,7 @@ th,td{
     padding: 36px 0 0 0;
     top: 0px;}
 .bottom-right {font-size:2.33em;
-    color: #fafafa;
+    color: #000000;
     line-height: 1.5em;
     width: auto;
     height: 100px;
@@ -152,7 +152,9 @@ table.organizers{
     width:800px;}
 td.organizer{
     white-space:nowrap;
-    width:25%;
+    height: 150px%;
+    width: 150px%;
+    object-fit: cover;
     text-align:center;
     vertical-align:middle;
     padding:5px 5px 5px 5px;}
