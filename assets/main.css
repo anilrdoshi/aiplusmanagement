@@ -102,6 +102,7 @@ th,td{
 /* Website Banner */
 .banner {position: relative;
     font-family:'Roboto Slab',serif;}
+<<<<<<< HEAD
 
 .top-left {
     font-size: 5.33em;
@@ -122,6 +123,10 @@ th,td{
 /*.top-left {
     font-size:5.33em;
     color: #FF8C00;
+=======
+.top-left {font-size:5.33em;
+    color: #505050;
+>>>>>>> parent of db26d56... Clean titles, organizer images, map position
     background: #fafafa;
     text-align: center;
     width: 1000px;
@@ -129,9 +134,14 @@ th,td{
     position: absolute;
     padding: 36px 0 0 0;
     top: 0px;}
+<<<<<<< HEAD
 .bottom-right {
     font-size:2.33em;
     color: #000000;
+=======
+.bottom-right {font-size:2.33em;
+    color: #fafafa;
+>>>>>>> parent of db26d56... Clean titles, organizer images, map position
     line-height: 1.5em;
     width: auto;
     height: 100px;
@@ -171,9 +181,7 @@ table.organizers{
     width:800px;}
 td.organizer{
     white-space:nowrap;
-    height: 150px%;
-    width: 150px%;
-    object-fit: cover;
+    width:25%;
     text-align:center;
     vertical-align:middle;
     padding:5px 5px 5px 5px;}
