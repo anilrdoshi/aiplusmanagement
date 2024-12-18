@@ -105,7 +105,7 @@ th,td{
     height: auto;
 }
 .top-left {
-    font-size:5.33em;
+    font-size:3.33em;
     color: #FF8C00;
     background: #fafafa;
     text-align: center;
@@ -115,13 +115,13 @@ th,td{
     padding: 36px 0 0 0;
     top: 0px;}
 .bottom-right {
-    font-size:2.33em;
+    font-size:2.00em;
     color: #000000;
     line-height: 1.5em;
     width: auto;
     height: 100px;
     padding: 0px 27px 27px 0px;
-    text-align: right;
+    text-align: center;
     position: absolute;
     bottom: 0px;
     right: 0px;
