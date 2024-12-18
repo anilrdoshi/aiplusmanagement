@@ -3,14 +3,14 @@
 /* These are the colors and fonts used throughout the webpage.
  * I've listed them here so that a user may easily
  * do a search-and-replace for these to change the site theme.
- *   'Roboto',sans-serif; Font for the title text
- *   'Roboto-Slab',serif; Font for the body text
+ *   'Helvetica',sans-serif; Font for the title text
+ *   'Helvetica',serif; Font for the body text
  *   #fafafa; Background color of the site
- *   #505050; Foreground (text) color of the site
- *   #52739e; Navy, "Template" in the logo, current page in navigation, special titles in the Program
- *   #b2132e; Reddish, "Conference" in the logo, hover color for links
+ *   #000000; Foreground (text) color of the site
+ *   #52739e; "Template" in the logo, current page in navigation, special titles in the Program
+ *   #D7722B; "Conference" in the logo, hover color for links
  *   #813c54; Heading color, titles in the Program
- *   #b8860b; Dark Goldenrod, color for links
+ *   #b8860b; color for links
  */
 
 @import url('https://fonts.googleapis.com/css?family=Roboto%7CRoboto+Slab');
@@ -28,9 +28,9 @@ body{
     background-color: #fafafa;
     background-size: cover;
     background-attachment: fixed;
-    color: #505050;
+    color: #000000;
     text-align:left;
-    font-family:'Roboto',sans-serif;
+    font-family:'Helvetica',sans-serif;
     font-size:1em;
     line-height:1.5em;
     margin: 60px auto;
@@ -42,13 +42,13 @@ a{
     text-decoration:none;}
 a.current{color: #52739e;}
 a.current:hover{color: #e82945;}
-a:hover{color: #b2132e;}
+a:hover{color: #D7722B;}
 a:active{color: #e82945;}
 h1,h2,h3,h4{
     clear:left;
     color: #813c54;
     margin:1.5em 0em 1em 0em;
-    font-family:'Roboto Slab',serif;
+    font-family:'Helvetica',serif;
     text-shadow: none;}
 h1{font-size:2.67em;}
 h2{font-size:2.00em;}
@@ -101,7 +101,7 @@ th,td{
 
 /* Website Banner */
 .banner {position: relative;
-    font-family:'Roboto Slab',serif;}
+    font-family:'Helvetica',serif;}
 .top-left {
     font-size:5.33em;
     color: #FF8C00;
@@ -127,7 +127,7 @@ th,td{
 
 /* Conference Title Logo */
 .title1 {
-    color: #b2132e;
+    color: #D7722B;
     text-shadow: none; /* Remove drop shadows */
     display: block; /* Ensure multi-line spacing */
     line-height: 1.2em; /* Adjust for better spacing */
@@ -193,7 +193,7 @@ td.title{
     font-size:1.5em;
     color: #813c54;
     height:32px;
-    font-family:'Roboto Slab',serif;
+    font-family:'Helvetica',serif;
     text-shadow: none;
     }
 td.title-special{
@@ -203,7 +203,7 @@ td.title-special{
     font-size:1.67em;
     color: #52739e;
     height:32px;
-    font-family:'Roboto Slab',serif;
+    font-family:'Helvetica',serif;
     text-shadow: none;}
 td.speaker{
     padding: 4px 12px 4px 4px;
