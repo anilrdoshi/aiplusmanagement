@@ -3,17 +3,15 @@
 /* These are the colors and fonts used throughout the webpage.
  * I've listed them here so that a user may easily
  * do a search-and-replace for these to change the site theme.
- *   'Helvetica',sans-serif; Font for the title text
- *   'Helvetica',serif; Font for the body text
+ *   'Arial',sans-serif; Font for the title text
+ *   'Arial',serif; Font for the body text
  *   #fafafa; Background color of the site
  *   #000000; Foreground (text) color of the site
  *   #52739e; "Template" in the logo, current page in navigation, special titles in the Program
- *   #D7722B; "Conference" in the logo, hover color for links
- *   #813c54; Heading color, titles in the Program
- *   #b8860b; color for links
+ *   #002147; "Conference" in the logo, hover color for links
+ *   #D7722B; Heading color, titles in the Program
+ *   #002147; color for links
  */
-
-@import url('https://fonts.googleapis.com/css?family=Roboto%7CRoboto+Slab');
 
 *{
     border:0;
@@ -30,7 +28,7 @@ body{
     background-attachment: fixed;
     color: #000000;
     text-align:left;
-    font-family:'Helvetica',sans-serif;
+    font-family:'Arial',sans-serif;
     font-size:1em;
     line-height:1.5em;
     margin: 60px auto;
@@ -48,7 +46,7 @@ h1,h2,h3,h4{
     clear:left;
     color: #813c54;
     margin:1.5em 0em 1em 0em;
-    font-family:'Helvetica',serif;
+    font-family:'Arial',serif;
     text-shadow: none;}
 h1{font-size:2.67em;}
 h2{font-size:2.00em;}
@@ -101,8 +99,7 @@ th,td{
 
 /* Website Banner */
 .banner {position: relative;
-    font-family:'Helvetica',serif;
-    max-width: 50%;
+    font-family:'Arial',serif;
     height: auto;
 }
 .top-left {
@@ -196,7 +193,7 @@ td.title{
     font-size:1.5em;
     color: #813c54;
     height:32px;
-    font-family:'Helvetica',serif;
+    font-family:'Arial',serif;
     text-shadow: none;
     }
 td.title-special{
@@ -206,7 +203,7 @@ td.title-special{
     font-size:1.67em;
     color: #52739e;
     height:32px;
-    font-family:'Helvetica',serif;
+    font-family:'Arial',serif;
     text-shadow: none;}
 td.speaker{
     padding: 4px 12px 4px 4px;
