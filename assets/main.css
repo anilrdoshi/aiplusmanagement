@@ -101,7 +101,10 @@ th,td{
 
 /* Website Banner */
 .banner {position: relative;
-    font-family:'Helvetica',serif;}
+    font-family:'Helvetica',serif;
+    max-width: 50%;
+    height: auto;
+}
 .top-left {
     font-size:5.33em;
     color: #FF8C00;
